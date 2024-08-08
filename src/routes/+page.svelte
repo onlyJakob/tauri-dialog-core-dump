@@ -34,7 +34,7 @@
 
   <form class="row" on:submit|preventDefault={greet}>
     <input id="greet-input" placeholder="Enter a name..." bind:value={name} />
-    <button type="submit">Greet</button>
+    <button type="submit">open dialog</button>
   </form>
 
   <p>{greetMsg}</p>
